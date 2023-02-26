@@ -1,15 +1,16 @@
-julien@ubuntu:~/0x04$ cat 2-main.c
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
+ * mul - checks for checks for a digit (0 through 9).
+ * @a: a - Variable
+ * @b: b - variable
  * Return: Always 0.
  */
-int main(void)
+int mul(int a, int b)
 {
-    	printf("%d\n", mul(98, 1024));
-	printf("%d\n", mul(-402, 4096));
-    	return (0);
+	int mul;
+
+	mul = a * b;
+
+	return (mul);
 }
+
